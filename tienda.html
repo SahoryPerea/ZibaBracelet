@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href="1_estilo.css">
+    <link rel = "stylesheet" href="estilo_navbar.css">
+    <link rel = "stylesheet" href="tienda_estilo.css">
+    <link rel = "stylesheet" href="index.js">
+
+    <title>Ziba</title>
+</head>
+
+<head class = "barra_navegacion">
+    <div class = "head">
+
+        <div class = "logo">
+            <a href = "#">Ziba</a>
+        </div>
+
+        <nav class = "navbar">
+            <a href = "inicio.html">Inicio</a>
+            <a href = "nosotros.html">Nosotros</a>
+            <a href = "tienda.html">Tienda</a>
+            <a href = "iniciar_sesion.html">Iniciar Sesion</a>
+        </nav>
+
+    </div>
+</head>
+
+<body>
+		<header>
+			<h1>Logo</h1>
+		</header>
+
+
+		<main>
+			<div class="container-img">
+				<img
+					src="reloj.png"
+					alt="imagen-producto"
+				/>
+			</div>
+			<div class="container-info-product">
+				<div class="container-price">
+					<span>$980.00</span>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+
+				<div class="container-details-product">
+					<div class="form-group">
+						<label for="colour">Color</label>
+						<select name="colour" id="colour">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="rojo">Rosa</option>
+							<option value="blanco">Blanco</option>
+							<option value="beige">Beige</option>
+                            <option value="beige">Oro Rosa</option>
+                            <option value="beige">Negro</option>
+						</select>
+					</div>
+
+					<button class="btn-clean">Limpiar</button>
+				</div>
+
+				<div class="container-add-cart">
+					<div class="container-quantity">
+						<input
+							type="number"
+							placeholder="1"
+							value="1"
+							min="1"
+							class="input-quantity"
+						/>
+						<div class="btn-increment-decrement">
+							<i class="fa-solid fa-chevron-up" id="increment"></i>
+							<i class="fa-solid fa-chevron-down" id="decrement"></i>
+						</div>
+					</div>
+					<button class="btn-add-to-cart">
+						<i class="fa-solid fa-plus"></i>
+						Añadir al carrito
+					</button>
+				</div>
+
+				<div class="container-description">
+					<div class="title-description">
+						<h4>Descripción</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+							Sientete segura, comoda y bella utilizando
+                            de los nuevos brazaletes anti-secuestros de Ziba.
+
+                            Con su tecnologia de alta gama y su diseño minimalista 
+                            lo convierte en un accesorio que puedes utilizar diariamente.
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Información adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>- Bateria de larga duracion</p>
+						<p>- GPS mediante conexion Bletooth</p>
+						<p>- Pitido de Alerta</p>
+						<p>- Mensajes automaticos en caso de emergencias</p>
+						<p>- Comodidad</p>
+					</div>
+				</div>
+
+				<div class="container-reviews">
+					<div class="title-reviews">
+						<h4>Reseñas</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-reviews hidden">
+						<p>Este producto aun no tiene reseñas.</p>
+					</div>
+				</div>
+
+				
+			</div>
+		</main>
+
+        <!-- CORREAS CORREAS CORREAS CORREAS CORREAS CORREAS CORREAS-->
+
+		<section class="container-related-products">
+			<h2>Correas</h2>
+			<div class="card-list-products">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-1"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Correa - Oro Rosa</h3>
+							<p class="category">Correa</p>
+						</div>
+						<div class="price">$150.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-2"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Correa - Serpiente</h3>
+							<p class="category">Correa</p>
+						</div>
+						<div class="price">$200.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-3"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Correa - Rosa Barbie</h3>
+							<p class="category">Correa</p>
+						</div>
+						<div class="price">$150.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-4"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Correa - Trasparente</h3>
+							<p class="category">Correa</p>
+						</div>
+						<div class="price">$100.00</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <!-- CHARMS DECORACIONES CHARMS DECORACIONES CHARMS DECORACIONES-->
+
+        <section class="container-related-products">
+			<h2></h2>
+            <h2>Charms</h2>
+			<div class="card-list-products">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-1"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Charm - Diamante</h3>
+							<p class="category">Charm</p>
+						</div>
+						<div class="price">$50.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-2"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Charm - Serpiente</h3>
+							<p class="category">Charm</p>
+						</div>
+						<div class="price">$80.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-3"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Charm - Gato</h3>
+							<p class="category">Charm</p>
+						</div>
+						<div class="price">$60.00</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="reloj.png"
+							alt="producto-4"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Charm - Calavera</h3>
+							<p class="category">Charm</p>
+						</div>
+						<div class="price">$100.00</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p></p>
+		</footer>
+
+		<script
+		src="https://kit.fontawesome.com/81581fb069.js"
+		crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+    </body>
+</html>
